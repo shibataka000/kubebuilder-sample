@@ -1,3 +1,7 @@
 domain: my.domain
 repo: github.com/shibataka000/kubebuilder-sample
+resources:
+- group: webapp
+  kind: Guestbook
+  version: v1
 version: "2"
